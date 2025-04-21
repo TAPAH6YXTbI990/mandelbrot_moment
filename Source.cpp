@@ -9,7 +9,7 @@ using namespace std;
 const int width = 1200, height = 800;
 const double xMin = -2.0, xMax = 1.0;
 const double yMin = -1.5, yMax = 1.5;
-const int maxIter = 10000;
+const int maxIter = 1000;
 
 Vec3b getColor(int iter) {
     if (iter == maxIter) {
